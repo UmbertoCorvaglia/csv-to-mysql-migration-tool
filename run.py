@@ -2,8 +2,9 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from connection import Connection
-import sys
 from gui_migration_tool import Ui_MainWindow
+import config as cfg
+import sys
 
 def main():
     app = QtWidgets.QApplication(sys.argv)
