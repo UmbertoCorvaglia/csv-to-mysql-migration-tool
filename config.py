@@ -4,7 +4,7 @@ version = "1.0"
 
 db_name = ''
 table_name = ""
-column_separator = ','
+column_separator = ''
 conn = None
 debug = False
 

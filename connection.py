@@ -11,7 +11,8 @@ class Connection:
         self._connectToDB()
     
     def _connectToDB(self):
-        self._view.pushButton_2.clicked.connect(partial(self._OnConnect))
+        pass
+        # self._view.pushButton_2.clicked.connect(partial(self._OnConnect))
     
     def _OnConnect(self):
 
